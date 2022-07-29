@@ -50,7 +50,7 @@ services:
       - ../dashboards:/root/config/dashboards
       - ./data/signoz/:/var/lib/signoz/
     environment:
-      - ClickHouseUrl=tcp://clickhouse:9000/?database=signoz_traces
+      - ClickHouseUrl=http://13.127.125.243:9000/?database=signoz_traces
       - STORAGE=clickhouse
       - GODEBUG=netdns=go
       - TELEMETRY_ENABLED=true

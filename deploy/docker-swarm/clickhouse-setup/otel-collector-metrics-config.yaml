@@ -48,7 +48,7 @@ processors:
 
 exporters:
   clickhousemetricswrite:
-    endpoint: tcp://clickhouse:9000/?database=signoz_metrics
+    endpoint: http://13.127.125.243:9000/?database=signoz_metrics
 
 extensions:
   health_check:

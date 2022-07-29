@@ -75,9 +75,9 @@ extensions:
 
 exporters:
   clickhousetraces:
-    datasource: tcp://clickhouse:9000/?database=signoz_traces
+    datasource: http://13.127.125.243:9000/?database=signoz_traces
   clickhousemetricswrite:
-    endpoint: tcp://clickhouse:9000/?database=signoz_metrics
+    endpoint: http://13.127.125.243:9000/?database=signoz_metrics
     resource_to_telemetry_conversion:
       enabled: true
   prometheus:

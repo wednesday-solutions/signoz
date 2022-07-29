@@ -18,7 +18,7 @@ const (
 )
 
 const (
-	defaultDatasource      string        = "tcp://localhost:9000"
+	defaultDatasource      string        = "tcp://13.127.125.243:9000"
 	defaultTraceDB         string        = "signoz_traces"
 	defaultOperationsTable string        = "signoz_operations"
 	defaultIndexTable      string        = "signoz_index_v2"

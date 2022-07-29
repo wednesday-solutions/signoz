@@ -23,4 +23,4 @@ scrape_configs:
   
 
 remote_read:
-  - url: tcp://clickhouse:9000/?database=signoz_metrics
+  - url: http://13.127.125.243:9000/?database=signoz_metrics
